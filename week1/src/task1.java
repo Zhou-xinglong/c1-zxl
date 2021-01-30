@@ -9,7 +9,6 @@ public class task1 {
         System.out.print("输入身高(m): ");
         b = in.nextDouble();
         c = a / (b * b);
-
         if(c<18.5) System.out.println("过轻");
         if(c>=18.5 && c<25) System.out.println("正常");
         if(c>=25 && c<28) System.out.println("过重");

@@ -8,6 +8,6 @@ public class task2 {
             c=num%10;
             if(num == a*a*a + b*b*b + c*c*c ) cont++;
         }
-        System.out.println("1000以内的水仙花有"+cont+"个");
+        System.out.println("1000以内的水仙花有 "+cont+"个");
     }
 }
