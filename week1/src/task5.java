@@ -20,7 +20,7 @@ class Circle
     void getArea(int radius)
     {
         double s;
-        s=3.14*radius*radius;
+        s=3.14*Math.pow(radius,2);
         System.out.println("the area is "+s);
     }
     void getPerimeter(int radius)
