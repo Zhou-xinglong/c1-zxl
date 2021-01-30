@@ -1,28 +1,32 @@
 import java.util.Scanner;
 public class task5 {
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner((System.in));
+        int r;
+        r = in.nextInt();
+        Circle cr = new Circle (r);
+        cr.getArea(r);
+        cr.getPerimeter(r);
+    }
+}
+class Circle
+{
     int radius;
-    double area;
-    double perimeter;
-    void insetRadius()
+    public Circle(int radius)
     {
-        Scanner in = new Scanner(System.in);
-        System.out.print("圆的半径: ");
-        radius = in.nextInt();
+        this.radius=radius;
     }
-    void getArea()
+    void getArea(int radius)
     {
-        area = 3.14*radius*radius;
-        System.out.println("the area is "+area);
+        double s;
+        s=3.14*radius*radius;
+        System.out.println("the area is "+s);
     }
-    void getPerimeter()
+    void getPerimeter(int radius)
     {
-        perimeter = 2 * 3.14 * radius;
-        System.out.println("the perimeter is "+perimeter);
-    }
-    public static void main(String[] args) {
-        task5 s = new task5();
-        s.insetRadius();
-        s.getArea();
-        s.getPerimeter();
+        double c;
+        c=2*3.14*radius;
+        System.out.println("the perimeter is "+c);
     }
 }
