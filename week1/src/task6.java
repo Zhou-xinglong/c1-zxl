@@ -3,7 +3,7 @@ public class task6 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n;
-        System.out.println("请选择你要进行的操作(1是开户，查询余额）：");
+        System.out.println("请选择你要进行的操作(1是开户，其他是查询余额）：");
         n=in.nextInt();
         Bank s = new Bank(n);
         if(n==1)
