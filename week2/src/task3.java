@@ -15,9 +15,12 @@ public class task3 {
             }
             else
             {
-                if('0'<=c[i-1]&&c[i-1]<='9'&&i>=1)
+                if(i>=1)
                 {
-                    System.out.print(",");
+                    if('0'<=c[i-1]&&c[i-1]<='9')
+                    {
+                        System.out.print(",");
+                    }
                 }
             }
         }
