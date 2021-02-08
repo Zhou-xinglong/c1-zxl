@@ -37,7 +37,5 @@ class Poultry
         System.out.println("症状为:"+symptom);
     }
 }
-class Duck extends Poultry
-{
 
-}
+
